@@ -3,7 +3,7 @@ require 'pry'
 # Given a hash with numeric values, return the key for the smallest value
 
 def key_for_min_value(name_hash)
-binding.pry  
+if name_hash = {}  
 lowest_number = nil
 answer = 0 
 name_hash.each do |name,number|
@@ -13,6 +13,7 @@ name_hash.each do |name,number|
  elsif lowest_number > number
    answer = name
    lowest_number = number
+   
  end
 end
 answer
