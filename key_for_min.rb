@@ -21,4 +21,3 @@ name_hash.each do |name,number|
 answer
     end
   end
-end
